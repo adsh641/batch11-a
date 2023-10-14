@@ -1,0 +1,40 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+systemd-coredump:x:999:996:systemd Core Dumper:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+sssd:x:998:995:User for sssd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+systemd-oom:x:993:993:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+vagrant:x:1000:1000:vagrant:/home/vagrant:/bin/bash
+vboxadd:x:992:1::/var/run/vboxadd:/bin/false
+ansible:x:1001:1001::/home/ansible:/bin/bash
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+netuser1:x:1002:1002::/netdir/netuser1:/bin/bash
+polkitd:x:991:990:User for polkitd:/:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+jim:x:1003:1003::/home/jim:/bin/bash
+mike:x:1005:1010::/home/mike:/bin/bash
+adewole:x:1006:1011::/home/adewole:/sbin/nologin
+test:x:1007:1012::/home/test:/bin/bash
+test1:x:1008:1013::/home/test1:/bin/bash
+tony:x:1009:1009::/home/tony:/bin/bash
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:990:989:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+geoclue:x:989:988:User for geoclue:/var/lib/geoclue:/sbin/nologin
+flatpak:x:988:987:User for flatpak system helper:/:/sbin/nologin
+chrony:x:987:986:chrony system user:/var/lib/chrony:/sbin/nologin
+user2:x:1010:1014::/home/user2:/bin/bash
